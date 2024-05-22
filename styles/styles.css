@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    article{
+        width: 100%;
+        text-align: center;
+    }
+
+    #prueba1, #prueba2{
+        opacity: 0;
+        position: absolute;
+    }
+
+    #prueba3{
+        background-color: rgb(236, 230, 230);
+        width: 100%;
+        height: 20px;
+        font-size: 20px;
+    }
+
+    #box1{
+        background-color: blue;
+    }
+
+    #box2{
+        background-color: rgb(93, 93, 247);
+    }
+
+    #box3{
+        background-color: lightblue;
+    }
+
+    p{
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (min-width: 600px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+    }
+
+    article{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    #prueba1, #prueba3{
+        opacity: 0;
+        position: absolute;
+    }
+
+    #prueba2{
+        background-color: rgb(236, 230, 230);
+        width: 100%;
+        height: 20px;
+        font-size: 20px;
+    }
+    div{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    #box1{
+        background-color: red;
+    }
+
+    #box2{
+        background-color: tomato;
+    }
+
+    #box3{
+        background-color: lightcoral;
+    }
+
+    p{
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 650px;
+    }
+
+    article{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    #prueba1{
+        background-color: rgb(236, 230, 230);
+        width: 100%;
+        height: 20px;
+        font-size: 20px;
+    }
+
+    #prueba2, #prueba3{
+        opacity: 0;
+        position: absolute;
+    }
+   
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        height: 100%;
+    }
+
+    #box1{
+        background-color: green;
+    }
+
+    #box2{
+        background-color: greenyellow;
+    }
+
+    #box3{
+        background-color: lightgreen;
+    }
+
+    p{
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
