@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+    main{
+        background-color: black;
+        padding: 15px;
+        margin: 5px;   
+    }
+    header{
+        background-color: rgb(93, 176, 253);
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    section{
+        background-color: tomato;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    article{
+        background-color: green;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    summary{
+        background-color: blueviolet;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    footer{
+        background-color: gray;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 600px){
+    main{
+        background-color: black;
+        padding: 15px;
+        margin: 5px;   
+    }
+    header{
+        background-color: rgb(93, 176, 253);
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    section{
+        background-color: tomato;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    div{
+        display: flex;
+    }
+
+    article{
+        background-color: green;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    summary{
+        background-color: blueviolet;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    footer{
+        background-color: gray;
+        border: 2px solid black;
+        padding: 25px 20px;
+    } 
+}
+
+@media only screen and (min-width: 900px){
+    main{
+        background-color: black;
+        padding: 15px;
+        margin: 5px;   
+    }
+    header{
+        background-color: rgb(93, 176, 253);
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    section{
+        background-color: tomato;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    div{
+        display: flex;
+        margin: 0px 70px;
+    }
+
+    article{
+        background-color: green;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    summary{
+        background-color: blueviolet;
+        border: 2px solid black;
+        padding: 25px 20px;
+    }
+
+    footer{
+        background-color: gray;
+        border: 2px solid black;
+        padding: 25px 20px;
+    } 
+
+}
